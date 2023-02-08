@@ -7,7 +7,7 @@ const fourDigitClockDisplay = formatMessage => ({
     version: '1.0.0',
     supportDevice: ['arduinoUno', 'arduinoNano', 'arduinoLeonardo',
         'arduinoMega2560', 'arduinoEsp8266', 'arduinoEsp32'],
-    author: 'ArthurZheng',
+    author: 'StraySnail',
     iconURL: `asset/fourDigitClockDisplay.png`,
     description: formatMessage({
         id: 'fourDigitClockDisplay.description',
@@ -21,7 +21,7 @@ const fourDigitClockDisplay = formatMessage => ({
     library: 'lib',
     official: true,
     tags: ['display'],
-    helpLink: 'https://wiki.openblock.cc'
+    helpLink: 'https://straysnail.com/'
 });
 
 module.exports = fourDigitClockDisplay;

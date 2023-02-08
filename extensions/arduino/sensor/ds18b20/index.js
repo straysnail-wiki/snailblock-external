@@ -7,7 +7,7 @@ const ds18b20 = formatMessage => ({
     version: '1.0.0',
     supportDevice: ['arduinoUno', 'arduinoNano', 'arduinoLeonardo',
         'arduinoMega2560', 'arduinoEsp32', 'arduinoEsp8266'],
-    author: 'ArthurZheng',
+    author: 'StraySnail',
     iconURL: `asset/ds18b20.png`,
     description: formatMessage({
         id: 'ds18b20.description',
@@ -21,7 +21,7 @@ const ds18b20 = formatMessage => ({
     library: 'lib',
     official: true,
     tags: ['sensor'],
-    helpLink: 'https://wiki.openblock.cc'
+    helpLink: 'https://straysnail.com/'
 });
 
 module.exports = ds18b20;

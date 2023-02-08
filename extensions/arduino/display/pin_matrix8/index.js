@@ -8,7 +8,7 @@ const pin_matrix = formatMessage => ({
     version: '1.0.0',
     type: 'arduino',
     supportDevice: ['arduinoUno', 'arduinoNano_arduinoUno', 'arduinoLeonardo', 'arduinoMega2560'],
-    author: 'keyes',
+    author: 'StraySnail',
     iconURL: `asset/pin_matrix.png`,
     description: formatMessage({
         id: 'pin_matrix.description',
@@ -22,7 +22,7 @@ const pin_matrix = formatMessage => ({
     msg: 'msg.js',
     library: 'lib',
     tags: ['display'],
-    helpLink: 'https://www.keyestudio.com/'
+    helpLink: 'https://straysnail.com/'
 });
 
 module.exports = pin_matrix;

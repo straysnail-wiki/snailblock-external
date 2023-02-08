@@ -7,7 +7,7 @@ const ultrasonic = formatMessage => ({
     version: '1.0.0',
     supportDevice: ['arduinoUno', 'arduinoNano', 'arduinoLeonardo',
         'arduinoMega2560', 'arduinoEsp32', 'arduinoEsp8266'],
-    author: 'Liang',
+    author: 'StraySnail',
     iconURL: `asset/ultrasonic.png`,
     description: formatMessage({
         id: 'ultrasonic.description',
@@ -21,7 +21,7 @@ const ultrasonic = formatMessage => ({
     library: 'lib',
     official: true,
     tags: ['sensor'],
-    helpLink: 'https://wiki.openblock.cc'
+    helpLink: 'https://straysnail.com/'
 });
 
 module.exports = ultrasonic;

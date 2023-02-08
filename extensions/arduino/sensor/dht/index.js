@@ -7,7 +7,7 @@ const dht = formatMessage => ({
     version: '1.0.0',
     supportDevice: ['arduinoUno', 'arduinoNano', 'arduinoLeonardo',
         'arduinoMega2560', 'arduinoEsp32', 'arduinoEsp8266'],
-    author: 'ArthurZheng',
+    author: 'StraySnail',
     iconURL: `asset/dht.png`,
     description: formatMessage({
         id: 'dht.description',
@@ -21,7 +21,7 @@ const dht = formatMessage => ({
     library: 'lib',
     official: true,
     tags: ['sensor'],
-    helpLink: 'https://wiki.openblock.cc'
+    helpLink: 'https://straysnail.com/'
 });
 
 module.exports = dht;

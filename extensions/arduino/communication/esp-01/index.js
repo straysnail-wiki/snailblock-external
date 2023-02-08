@@ -7,7 +7,7 @@ const beetle_wifi = formatMessage => ({
     extensionId: 'beetle_wifi',
     version: '1.0.0',
     supportDevice: ['arduinoEsp32','arduinoEsp8266'],
-    author: 'keyes',
+    author: 'StraySnail',
     iconURL: `asset/wifi_01.png`,
     description: formatMessage({
         id: 'beetle_wifi.description',
@@ -20,7 +20,7 @@ const beetle_wifi = formatMessage => ({
     msg: 'msg.js',
     library: 'lib',
     tags: ['communication'],
-    helpLink: 'https://www.keyestudio.com/'
+    helpLink: 'https://straysnail.com/'
 });
 
 module.exports = beetle_wifi;

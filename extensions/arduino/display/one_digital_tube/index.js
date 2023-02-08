@@ -8,7 +8,7 @@ const one_tube = formatMessage => ({
     version: '1.0.0',
     type: 'arduino',
     supportDevice: ['arduinoUno', 'arduinoNano', 'arduinoMini', 'arduinoLeonardo','arduinoMega2560', 'arduinoEsp32', 'arduinoEsp8266'],
-    author: 'keyes',
+    author: 'StraySnail',
     iconURL: `asset/one_tube.png`,
     description: formatMessage({
         id: 'one_tube.description',
@@ -22,7 +22,7 @@ const one_tube = formatMessage => ({
     msg: 'msg.js',
     library: 'lib',
     tags: ['display'],
-    helpLink: 'https://www.keyestudio.com/'
+    helpLink: 'https://straysnail.com/'
 });
 
 module.exports = one_tube;

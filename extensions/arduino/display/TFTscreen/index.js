@@ -8,7 +8,7 @@ const TFT = formatMessage => ({
     version: '1.0.0',
     type: 'arduino',
     supportDevice: ['arduinoUno', 'arduinoNano_arduinoUno', 'arduinoLeonardo', 'arduinoMega2560'],
-    author: 'keyes',
+    author: 'StraySnail',
     iconURL: `asset/TFTscreen.png`,
     description: formatMessage({
         id: 'TFT.description',
@@ -22,7 +22,7 @@ const TFT = formatMessage => ({
     msg: 'msg.js',
     library: 'lib',
     tags: ['display'],
-    helpLink: 'https://www.keyestudio.com/'
+    helpLink: 'https://straysnail.com/'
 });
 
 module.exports = TFT;

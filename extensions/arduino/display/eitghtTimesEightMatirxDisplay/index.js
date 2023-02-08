@@ -7,7 +7,7 @@ const eitghtTimesEightMatirxDisplay = formatMessage => ({
     version: '1.0.0',
     supportDevice: ['arduinoUno', 'arduinoNano', 'arduinoLeonardo',
         'arduinoMega2560', 'arduinoEsp8266', 'arduinoEsp32'],
-    author: 'ArthurZheng',
+    author: 'StraySnail',
     iconURL: `asset/eitghtTimesEightMatirxDisplay.png`,
     description: formatMessage({
         id: 'eitghtTimesEightMatirxDisplay.description',
@@ -21,7 +21,7 @@ const eitghtTimesEightMatirxDisplay = formatMessage => ({
     library: 'lib',
     official: true,
     tags: ['display'],
-    helpLink: 'https://wiki.openblock.cc'
+    helpLink: 'https://straysnail.com/'
 });
 
 module.exports = eitghtTimesEightMatirxDisplay;

@@ -7,7 +7,7 @@ const moreComments = formatMessage => ({
     version: '1.0.0',
     supportDevice: ['arduinoUno', 'arduinoNano', 'arduinoLeonardo',
         'arduinoMega2560', 'arduinoEsp32', 'arduinoEsp8266'],
-    author: 'ArthurZheng',
+    author: 'StraySnail',
     iconURL: `asset/moreComments.png`,
     description: formatMessage({
         id: 'moreComments.description',
@@ -20,7 +20,7 @@ const moreComments = formatMessage => ({
     msg: 'msg.js',
     official: true,
     tags: ['other'],
-    helpLink: 'https://wiki.openblock.cc'
+    helpLink: 'https://straysnail.com/'
 });
 
 module.exports = moreComments;

@@ -10,6 +10,9 @@ function addMsg (Blockly) {
     Object.assign(Blockly.ScratchMsgs.locales["en"],
         {
             "OLED_CATEGORY": "OLED",
+            "OLED_SET_PICTURE": "OLED set picture name %1 data %2",
+            "OLED_DISPLAY_PICTURE": "OLED display picture name %1",
+            
             "OLED_CLEAR": "clear oled",
             "OLED_COLOR_BLACK": "black",
             "OLED_COLOR_INVERSE": "inverse",
@@ -42,6 +45,9 @@ function addMsg (Blockly) {
     Object.assign(Blockly.ScratchMsgs.locales["zh-cn"],
         {
             "OLED_CATEGORY": "OLED",
+            "OLED_SET_PICTURE": "OLED 设置图片 名称 %1 数据 %2",
+            "OLED_DISPLAY_PICTURE": "OLED 显示图片 名称 %1",
+
             "OLED_CLEAR": "清空 oled",
             "OLED_COLOR_BLACK": "黑色",
             "OLED_COLOR_INVERSE": "反转",
@@ -74,6 +80,9 @@ function addMsg (Blockly) {
     Object.assign(Blockly.ScratchMsgs.locales["zh-tw"],
         {
             "OLED_CATEGORY": "OLED",
+            "OLED_SET_PICTURE": "OLED 设置图片 名称 %1 数据 %2",
+            "OLED_DISPLAY_PICTURE": "OLED 显示图片 名称 %1",
+
             "OLED_CLEAR": "清空 oled",
             "OLED_COLOR_BLACK": "黑色",
             "OLED_COLOR_INVERSE": "反轉",

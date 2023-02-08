@@ -8,7 +8,7 @@ const bh1750 = formatMessage => ({
     version: '1.0.0',
     type: 'arduino',
     supportDevice: ['arduinoUno', 'arduinoNano_arduinoUno', 'arduinoLeonardo', 'arduinoMega2560'],
-    author: 'keyes',
+    author: 'StraySnail',
     iconURL: `asset/bh1750.png`,
     description: formatMessage({
         id: 'bh1750.description',
@@ -22,7 +22,7 @@ const bh1750 = formatMessage => ({
     msg: 'msg.js',
     library: 'lib',
     tags: ['sensor'],
-    helpLink: 'https://www.keyestudio.com/'
+    helpLink: 'https://straysnail.com/'
 });
 
 module.exports = bh1750;

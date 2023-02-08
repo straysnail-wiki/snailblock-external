@@ -6,7 +6,7 @@ const cooperativeScheduler = formatMessage => ({
     extensionId: 'cooperativeScheduler',
     version: '1.0.0',
     supportDevice: ['arduinoUno', 'arduinoNano', 'arduinoLeonardo', 'arduinoMega2560'],
-    author: 'ArthurZheng',
+    author: 'StraySnail',
     iconURL: `asset/cooperativeScheduler.png`,
     description: formatMessage({
         id: 'cooperativeScheduler.description',
@@ -20,7 +20,7 @@ const cooperativeScheduler = formatMessage => ({
     library: 'lib',
     official: true,
     tags: ['other'],
-    helpLink: 'https://wiki.openblock.cc'
+    helpLink: 'https://straysnail.com/'
 });
 
 module.exports = cooperativeScheduler;

@@ -8,7 +8,7 @@ const ds1307 = formatMessage => ({
     version: '1.0.0',
     type: 'arduino',
     supportDevice: ['arduinoUno', 'arduinoNano_arduinoUno', 'arduinoLeonardo', 'arduinoMega2560'],
-    author: 'keyes',
+    author: 'StraySnail',
     iconURL: `asset/ks_ds1307.png`,
     description: formatMessage({
         id: 'ds1307.description',
@@ -22,7 +22,7 @@ const ds1307 = formatMessage => ({
     msg: 'msg.js',
     library: 'lib',
     tags: ['sensor'],
-    helpLink: 'https://www.keyestudio.com/'
+    helpLink: 'https://straysnail.com/'
 });
 
 module.exports = ds1307;

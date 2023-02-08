@@ -4,7 +4,7 @@ const tcs3200 = formatMessage => ({
     version: '1.0.0',
     supportDevice: ['arduinoUno', 'arduinoNano', 'arduinoLeonardo',
         'arduinoMega2560'],
-    author: 'ArthurZheng',
+    author: 'StraySnail',
     iconURL: `asset/tcs3200.png`,
     description: formatMessage({
         id: 'tcs3200.description',
@@ -18,7 +18,7 @@ const tcs3200 = formatMessage => ({
     library: 'lib',
     official: true,
     tags: ['sensor'],
-    helpLink: 'https://wiki.openblock.cc'
+    helpLink: 'https://straysnail.com/'
 });
 
 module.exports = tcs3200;

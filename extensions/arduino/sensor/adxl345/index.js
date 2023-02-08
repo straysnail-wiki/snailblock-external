@@ -8,7 +8,7 @@ const ks_adxl345 = formatMessage => ({
     version: '1.0.0',
     type: 'arduino',
     supportDevice: ['arduinoUno', 'arduinoNano_arduinoUno', 'arduinoLeonardo', 'arduinoMega2560'],
-    author: 'keyes',
+    author: 'StraySnail',
     iconURL: `asset/ks_adxl345.png`,
     description: formatMessage({
         id: 'ks_adxl345.description',
@@ -22,7 +22,7 @@ const ks_adxl345 = formatMessage => ({
     msg: 'msg.js',
     library: 'lib',
     tags: ['sensor'],
-    helpLink: 'https://www.keyestudio.com/'
+    helpLink: 'https://straysnail.com/'
 });
 
 module.exports = ks_adxl345;

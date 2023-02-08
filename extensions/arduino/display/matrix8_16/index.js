@@ -8,7 +8,7 @@ const matrix8_16 = formatMessage => ({
     version: '1.0.0',
     type: 'arduino',
     supportDevice: ['arduinoUno', 'arduinoNano', 'arduinoMini', 'arduinoLeonardo','arduinoMega2560', 'arduinoEsp32', 'arduinoEsp8266'],
-    author: 'keyes',
+    author: 'StraySnail',
     iconURL: `asset/matrix8_16.png`,
     description: formatMessage({
         id: 'matrix8_16.description',
@@ -22,7 +22,7 @@ const matrix8_16 = formatMessage => ({
     msg: 'msg.js',
     library: 'lib',
     tags: ['display'],
-    helpLink: 'https://www.keyestudio.com/'
+    helpLink: 'https://straysnail.com/'
 });
 
 module.exports = matrix8_16;

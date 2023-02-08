@@ -8,7 +8,7 @@ const ks_74hc595 = formatMessage => ({
     version: '1.0.0',
     type: 'arduino',
     supportDevice: ['arduinoUno', 'arduinoNano', 'arduinoMini', 'arduinoLeonardo','arduinoMega2560', 'arduinoEsp32', 'arduinoEsp8266'],
-    author: 'keyes',
+    author: 'StraySnail',
     iconURL: `asset/ks_74hc595.png`,
     description: formatMessage({
         id: 'ks_74hc595.description',
@@ -22,7 +22,7 @@ const ks_74hc595 = formatMessage => ({
     msg: 'msg.js',
     library: 'lib',
     tags: ['actuator'],
-    helpLink: 'https://www.keyestudio.com/'
+    helpLink: 'https://straysnail.com/'
 });
 
 module.exports = ks_74hc595;

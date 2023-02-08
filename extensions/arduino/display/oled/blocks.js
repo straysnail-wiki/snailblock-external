@@ -34,6 +34,45 @@ function addBlocks (Blockly) {
         }
     };
 
+    Blockly.Blocks.oled_set_picture = {
+        init: function () {
+            this.jsonInit({
+                message0: Blockly.Msg.OLED_SET_PICTURE,
+                args0: [
+                    {
+                        type: 'input_value',
+                        name: 'name'
+                    },
+                    {
+                        type: 'input_value',
+                        name: 'data'
+                    }
+                ],
+                colour: colour,
+                secondaryColour: secondaryColour,
+                extensions: ['shape_statement']
+            });
+        }
+    };
+
+    Blockly.Blocks.oled_display_picture = {
+        init: function () {
+            this.jsonInit({
+                message0: Blockly.Msg.OLED_DISPLAY_PICTURE,
+                args0: [
+                    {
+                        type: 'input_value',
+                        name: 'name'
+                    }
+                ],
+                colour: colour,
+                secondaryColour: secondaryColour,
+                extensions: ['shape_statement']
+            });
+        }
+    };
+
+
     Blockly.Blocks.oled_drawLine = {
         init: function () {
             this.jsonInit({

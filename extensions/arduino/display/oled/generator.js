@@ -13,6 +13,23 @@ function addGenerator (Blockly) {
         return `oled.begin(SSD1306_SWITCHCAPVCC, ${addr});\n`;
     };
 
+    //设置图片名称和数据
+    Blockly.Arduino.oled_set_picture = function (block) {
+        const name1 = Blockly.Arduino.valueToCode(block, 'name', Blockly.Arduino.ORDER_ATOMIC) ||' ' ;
+        var name = name1.replace(/\"/g, '')  //替换掉“”
+        const data1 = Blockly.Arduino.valueToCode(block, 'data', Blockly.Arduino.ORDER_ATOMIC) ||' ' ;
+        var data = data1.replace(/\"/g, '')
+        Blockly.Arduino.definitions_[`oled_picture_${name}`] = `const unsigned char ${name} [] PROGMEM = {\n ${data} \n };\n`;
+        return ``;
+    };
+
+    //显示图片
+    Blockly.Arduino.oled_display_picture = function (block) {
+        const name1 = Blockly.Arduino.valueToCode(block, 'name', Blockly.Arduino.ORDER_ATOMIC) ||' ' ;
+        var name = name1.replace(/\"/g, '')  //替换掉“”
+        return `oled.drawBitmap(0, 0, ${name}, 128, 64, 1);\n`;
+    };
+
     Blockly.Arduino.oled_drawLine = function (block) {
         const x0 = Blockly.Arduino.valueToCode(block, 'X0', Blockly.Arduino.ORDER_ATOMIC);
         const y0 = Blockly.Arduino.valueToCode(block, 'Y0', Blockly.Arduino.ORDER_ATOMIC);

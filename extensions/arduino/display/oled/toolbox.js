@@ -16,6 +16,28 @@ function addToolbox () {
             </shadow>
         </value>
     </block>
+
+    <block type="oled_set_picture" id="oled_set_picture">
+        <value name="name">
+            <shadow type="text">
+                <field name="TEXT">snail</field>
+            </shadow>
+        </value>
+        <value name="data">
+            <shadow type="text">
+                <field name="TEXT">0xff</field>
+            </shadow>
+        </value>
+    </block>
+
+    <block type="oled_display_picture" id="oled_display_picture">
+        <value name="name">
+            <shadow type="text">
+                <field name="TEXT">snail</field>
+            </shadow>
+        </value>
+    </block>
+
     <block type="oled_drawLine" id="oled_drawLine">
         <value name="X0">
             <shadow type="math_whole_number">

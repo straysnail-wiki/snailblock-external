@@ -1,6 +1,7 @@
 module.exports = [
     // Buid-in device
-    'arduinoUno',
+    //'arduinoUno',
+    'unoPlus_arduinoUno',
     'arduinoNano',
     'arduinoLeonardo',
     'arduinoMega2560',

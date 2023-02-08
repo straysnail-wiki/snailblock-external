@@ -6,7 +6,7 @@ const tm1640 = formatMessage => ({
     extensionId: 'tm1640',
     version: '1.0.0',
     supportDevice: ['unoCore'],
-    author: 'keyestudio',
+    author: 'StraySnail',
     iconURL: `asset/tm1640.png`,
     description: formatMessage({
         id: 'tm1640.description',
@@ -19,7 +19,7 @@ const tm1640 = formatMessage => ({
     msg: 'msg.js',
     library: 'lib',
     tags: ['display'],
-    helpLink: 'www.keyestudio.com'
+    helpLink: 'https://straysnail.com/'
 });
 
 module.exports = tm1640;

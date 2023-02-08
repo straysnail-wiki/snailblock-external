@@ -7,7 +7,7 @@ const lcd_pin = formatMessage => ({
     version: '1.0.0',
     supportDevice: ['arduinoUno', 'arduinoNano_arduinoUno', 'arduinoMini', 'arduinoLeonardo',
         'arduinoMega2560', 'arduinoEsp8266', 'arduinoEsp32'],
-    author: 'keyes',
+    author: 'StraySnail',
     iconURL: `asset/lcd.png`,
     description: formatMessage({
         id: 'lcd_pin.description',
@@ -20,7 +20,7 @@ const lcd_pin = formatMessage => ({
     msg: 'msg.js',
     library: 'lib',
     tags: ['display'],
-    helpLink: 'https://www.keyestudio.com/'
+    helpLink: 'https://straysnail.com/'
 });
 
 module.exports = lcd_pin;
